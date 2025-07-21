@@ -1,97 +1,83 @@
 .box {
-    display: flex;
-    flex-direction: column;
-    background-color: #0a0F3C;
-    margin-top: 100px;
-    margin-left: 550px;
-    margin-right: 500px;
-    height: 560px;
-    width: 340px;
-    border-radius: 3%;
-    box-shadow: 0px 20px 50px 4px black;
+	display: flex;
+	flex-direction: column;
+	background-color: #0a0F3C;
+	margin-top: 100px;
+	margin-left: 750px;
+	height: 560px;
+	width: 340px;
+	border-radius: 3%;
+	box-shadow: 0px 20px 50px 4px black;
 }
 
 .box-show {
-    flex-direction: column;
-    background-color: #2C5DA9;
-    direction: rtl;
-    margin: 20px;
-    height: 95px;
-    border-radius: 2%;
-    font-family: but;
-    .show-case {
-        .text_show_case {
-            margin-top: 1px;
-        }
-        height: 24px;
-        padding: 5px;
-        padding-right: 10px;
-        font-size: 18px;
-        background-color: rgba(124, 120, 120, 0.438);
-    }
-    .line-mid {
-        background-color: #0a0F3C;
-        font-size: 5px;
-    }
-    .result {
-        margin-top: 5px;
-        padding-top: 5px;
-        padding-right: 10px;
-        font-size: 35px;
-    }
-}
+	flex-direction: column;
+	background-color: #2C5DA9;
+	direction: rtl;
+	margin: 20px;
+	height: 95px;
+	border-radius: 2%;
+	font-family: but;
 
+	.result {
+		overflow: hidden;
+		margin-top: 5px;
+		padding-top: 5px;
+		padding-right: 10px;
+		font-size: 35px;
+	}
+}
 .buttons {
-    button {
-        background-color: #a3c5ff;
-        font-size: 25px; 
-        border-radius: 50%;
-        width: 70px;
-        height: 70px;
-        border: none;
-        transition: .5s;
-        box-shadow: 0px 2px 4px 1px #2C5DA9;
-    }
-    button:hover {
-        box-shadow: 0px 0px 6px 3px black;
-        background-color: #2C5DA9;
-        transform: scale(.92);
-    }
-    .line_one{
-        display: flex;
-        justify-content: space-evenly;
-        padding: 5px;
-    }
-    .line_two{
-        display: flex;
-        justify-content: space-evenly;
-        padding: 5px;
-    }
-    .line_three{
-        display: flex;
-        justify-content: space-evenly;
-        padding: 5px;
-    }
-    .line_four{
-        display: flex;
-        justify-content: space-evenly;
-        padding: 5px;
-    }
-    .line_five{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 5px;
-        margin-left: 10px;
-        .equal {
-            border-radius: 4%;
-            width: 130px;
-            height: 65px;
-            margin-top: 4px;
-            margin-right: 10px;
-            margin-left: 5px;
-        }
-        button.equal:hover {
-            transform: scale(.97);
-        }
-    }
+	button {
+		background-color: #a3c5ff;
+		font-size: 25px; 
+		border-radius: 50%;
+		width: 70px;
+		height: 70px;
+		border: none;
+		transition: .5s;
+		box-shadow: 0px 2px 4px 1px #2C5DA9;
+	}
+	button:hover {
+		box-shadow: 0px 0px 6px 3px black;
+		background-color: #2C5DA9;
+		transform: scale(.92);
+	}
+	.line_one{
+		display: flex;
+		justify-content: space-evenly;
+		padding: 5px;
+	}
+	.line_two{
+		display: flex;
+		justify-content: space-evenly;
+		padding: 5px;
+	}
+	.line_three{
+		display: flex;
+		justify-content: space-evenly;
+		padding: 5px;
+	}
+	.line_four{
+		display: flex;
+		justify-content: space-evenly;
+		padding: 5px;
+	}
+	.line_five{
+		display: flex;
+		justify-content: space-evenly;
+		margin-top: 5px;
+		margin-left: 10px;
+		.equal {
+			border-radius: 4%;
+			width: 130px;
+			height: 65px;
+			margin-top: 4px;
+			margin-right: 10px;
+			margin-left: 5px;
+		}
+		button.equal:hover {
+			transform: scale(.97);
+		}
+	}
 }
